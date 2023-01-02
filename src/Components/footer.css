@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    width: 1024px;
+    font-style: 12px;
+}
+.flists {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.flist{
+    list-style: none;
+}
+.flistitem{
+    margin-bottom: 10px;
+    color: #0d6efd;;
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.header{
+    color:white;
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+.headerContainer{
+    width:100%;
+    margin:10px 0 100px 0;
+}
+.headerlist{
+    display: flex;
+    gap:40px;
+}
+.headerlistitem{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+.message{
+    margin:20px 0px;
+}
+.headerbtn{
+    background-color: rgb(11, 120, 128);
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+.headersearch{
+    height:40px;
+    background-color: white;
+    border:3px solid #febb02;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:10px 0px;
+    border-radius: 5px;
+    position:absolute;
+    bottom:-25px;
+    left:200px;
+    width:100%;
+    max-width: 1024px;
+
+
+}
+.headersearchitem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.hsearchinput{
+    border:none;
+    outline:none;
+}
+.hicon{
+    color: lightgray;
+}
+.date{
+    position: absolute;
+    top :50px;
+    z-index:5;
+}
+.hstext{
+    color:gray;
+}
+.hsearchbtn{
+    height: 2rem;
+    text-align: center;
+    padding: 0px 10px;
+}
+.options{
+    color: black;
+    position: absolute;
+    top:50px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 10px -5px rgba(0,0,0,0);
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
+    z-index: 5;
+
+}
+.optionitem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.optionctr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:12px;
+    color: black;
+}
+.counterbtn{
+    width: 30px;
+    height: 30px;
+    border:1px solid rgb(11, 120, 128);
+    color:rgb(11, 120, 128);
+    cursor: pointer;
+    background-color: #fff;
+}
+/* .mainbgimg img{
+    width:100%;
+  
+} */
