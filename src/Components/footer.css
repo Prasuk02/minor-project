@@ -17,3 +17,23 @@
     color: #0d6efd;;
     cursor: pointer;
 }
+
+.help{
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+}
+
+.help :active{
+    color: grey;
+}
+
+.help :hover{
+    color: black;
+}
+
+.follow{
+    margin-right: 15px; 
+    font-size: 40px;
+    color:rgb(34, 33, 33)
+}

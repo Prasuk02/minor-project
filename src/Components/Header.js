@@ -40,25 +40,29 @@ export default function Header({type}) {
   }
   return (
     <>
-   <div className="header bg-primary">
+   <div className="header">
     <div className="headerContainer">
-        <div className="headerlist">
-            <div className="headerlistitem"><FontAwesomeIcon icon={faBed} /><span>Stays</span></div>
-            <div className="headerlistitem"><FontAwesomeIcon icon={faPlane} /><span>Flights</span></div>
-            <div className="headerlistitem"><FontAwesomeIcon icon={faCar} /><span>Car Rentals</span></div>
-            <div className="headerlistitem"><FontAwesomeIcon icon={faBed} /><span>Attractions</span></div>
-            <div className="headerlistitem"><FontAwesomeIcon icon={faCar} /><span>Airport taxis</span></div>
-        </div>
-
+        
         {type!=="list" &&
         <>
-        <h1 className="headertitle">Save 15% with late escape deals gg</h1>
-        <p className='message'>There is still time to check one more destination off your wishlist</p>
-        <button className='headerbtn'>More deals</button>
-        <div className='mainbgimg'>
-        <div className="text-center">
-  <img src="https://img.freepik.com/free-vector/people-using-online-appointment-booking-app_74855-5556.jpg?w=200" class="rounded" alt="..."/>
-</div>
+        <div class="container-fluid">
+          
+        <div class="row justify-content-evenly">
+    <div class="col-md-5 text-center align-self-center mt-5">
+      <h5 className='mt-2'>New Year Sale is on...</h5>
+    <h1 className="headertitle">Save 15% with late escape deals gg</h1>
+    <p className='message'>Discover the world best resorts and plan the perfect holiday</p>
+    <button className='headerbtn btn btn-success'>Explore More</button>
+    </div>
+    <div class="col-md-5 text-center p-5">
+    {/* <img src="https://img.freepik.com/free-vector/people-using-online-appointment-booking-app_74855-5556.jpg?w=200" class="rounded" alt="..."/> */}
+    </div>
+  </div>
+
+       
+        
+        
+        
         </div>
         <div className="headersearch">
             <div className="headersearchitem">

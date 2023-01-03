@@ -1,8 +1,13 @@
 .header{
-    color:white;
+    color:black;
     display:flex;
     justify-content: center;
     position: relative;
+    background: url("https://www.flightsreservationsystem.com/trvx-static-asset-files/images/hotel-booking-engine-banner.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:right;
+    background-color: #c7e4f6;
 }
 .headerContainer{
     width:100%;
@@ -28,7 +33,7 @@
     cursor: pointer;
 }
 .headersearch{
-    height:40px;
+    height:70px;
     background-color: white;
     border:3px solid #febb02;
     display:flex;
@@ -36,9 +41,10 @@
     justify-content:space-around;
     padding:10px 0px;
     border-radius: 5px;
+    border-width: 4px;
     position:absolute;
-    bottom:-25px;
-    left:200px;
+    bottom:-35px;
+    left:165px;
     width:100%;
     max-width: 1024px;
 
@@ -65,9 +71,11 @@
     color:gray;
 }
 .hsearchbtn{
-    height: 2rem;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
     text-align: center;
-    padding: 0px 10px;
+    margin-left: 20px;
 }
 .options{
     color: black;

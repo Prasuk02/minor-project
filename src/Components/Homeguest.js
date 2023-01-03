@@ -5,14 +5,14 @@ export default function Homeguest() {
   return (
 
     <div>
-        <div className="fp">
+        <div className="fp mt-3">
             <div className="fpitem">
             <img src="https://r-xx.bstatic.com/xdata/images/city/250x250/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" alt="" className="fpimg" />
-            <span className="fpname">Mumbai</span>
+            <span className="fpname">Kerela</span>
             <span className="fpcity">1,651 properties</span>
             <div className="rating">
-                <button>8.9</button>
-                <span>Excellent</span>
+                <span className="rate">8.9</span> &nbsp;
+                <span>Excellent</span> 
             </div>
             </div>
             <div className="fpitem">
@@ -20,8 +20,8 @@ export default function Homeguest() {
             <span className="fpname">New Delhi</span>
             <span className="fpcity">1,651 properties</span>
             <div className="rating">
-                <button>8.9</button>
-                <span>Excellent</span>
+                <span className="rate">8.9</span> &nbsp;
+                <span>Excellent</span> &nbsp;
             </div>
             </div>
             <div className="fpitem">
@@ -29,8 +29,8 @@ export default function Homeguest() {
             <span className="fpname">Jaipur</span>
             <span className="fpcity">1,651 properties</span>
             <div className="rating">
-                <button>8.9</button>
-                <span>Excellent</span>
+                <span className="rate">8.9</span> &nbsp;
+                <span>Excellent</span>  
             </div>
             </div>
             <div className="fpitem">
@@ -38,7 +38,7 @@ export default function Homeguest() {
             <span className="fpname">Banglore</span>
             <span className="fpcity">1,651 properties</span>
             <div className="rating">
-                <button>8.9</button>
+                <span className="rate">8.9</span> &nbsp;
                 <span>Excellent</span>
             </div>
             </div>
@@ -48,7 +48,7 @@ export default function Homeguest() {
             <span className="fpname">Udaipur</span>
             <span className="fpcity">1,651 properties</span>
             <div className="rating">
-                <button>8.9</button>
+                <span className="rate">8.9</span> &nbsp;
                 <span>Excellent</span>
             </div>
             </div>
@@ -57,7 +57,7 @@ export default function Homeguest() {
             <span className="fpname">Pondicherry</span>
             <span className="fpcity">1,651 properties</span>
             <div className="rating">
-                <button>8.9</button>
+                <span className="rate">8.9</span> &nbsp;
                 <span>Excellent</span>
             </div>
             </div>
